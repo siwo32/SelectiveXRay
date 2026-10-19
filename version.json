@@ -1,0 +1,7 @@
+{
+  "build": 10000,
+  "version": "1.0",
+  "download_url": "https://howareyu.booth.pm/items/9011263",
+  "changes": ["Ver1.0を公開しました。", "選択した対象の貫通表示とVRChatのON/OFFメニュー作成に対応。"],
+  "changes_en": ["Version 1.0 is available.", "Selective XRay rendering with a VRChat ON/OFF menu setup tool."]
+}
