@@ -1,7 +1,13 @@
 {
-  "build": 10000,
-  "version": "1.0",
+  "build": 10100,
+  "version": "1.1",
   "download_url": "https://howareyu.booth.pm/items/9011263",
-  "changes": ["Ver1.0を公開しました。", "選択した対象の貫通表示とVRChatのON/OFFメニュー作成に対応。"],
-  "changes_en": ["Version 1.0 is available.", "Selective XRay rendering with a VRChat ON/OFF menu setup tool."]
+  "changes": [
+    "半透明の透過対象と不透明部分の描画順を分け、半透明の髪などの後ろが正しく表示されない問題を修正しました。",
+    "既存の設定には、使い方に従って設定を作り直すことで修正が適用されます。"
+  ],
+  "changes_en": [
+    "Fixed incorrect blending behind semi-transparent see-through surfaces by drawing opaque surfaces first.",
+    "Recreate existing setups following the guide to apply the fix."
+  ]
 }
