@@ -1,4 +1,4 @@
-# MiM Selective XRay — Ver1.1
+# MiM Selective XRay — Ver1.2
 
 選択した表面越しにオブジェクトを表示し、VRChatのExpressionsメニューでON/OFFを切り替えるPCアバター向けツールです。
 
@@ -14,6 +14,12 @@ Unity 2022.3（Built-in Render Pipeline）、VRChat Avatars SDK、Modular Avatar
 
 ## 更新履歴
 
+### Ver1.2（2026-10-24）
+
+- マテリアルバリアントを独立した複製に変換し、XRayシェーダーへの変更に失敗する問題を修正しました。
+- 貫通対象の通常の半透明lilToonマテリアルに対応しました。
+- 既存の設定へ適用するには、使い方に従って旧設定を取り外し、Ver1.2で作り直してください。
+
 ### Ver1.1（2026-10-20）
 
 - 半透明の透過対象と不透明部分の描画順を分け、半透明の髪などの後ろが正しく表示されない問題を修正しました。
@@ -25,7 +31,7 @@ Unity 2022.3（Built-in Render Pipeline）、VRChat Avatars SDK、Modular Avatar
 
 ## 対応条件
 
-PC版アバター・不透明な貫通対象に対応します。Quest/Android、URP/HDRP、複数の貫通範囲を重ねる構成には対応していません。
+PC版アバター向けです。貫通対象はlilToonの不透明・通常の半透明マテリアルに対応します。屈折や特殊な透明モードは対象外です。Quest/Android、URP/HDRP、複数の貫通範囲を重ねる構成には対応していません。
 
 ## お問い合わせ
 
