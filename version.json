@@ -1,13 +1,15 @@
 {
-  "build": 10100,
-  "version": "1.1",
+  "build": 10200,
+  "version": "1.2",
   "download_url": "https://howareyu.booth.pm/items/9011263",
   "changes": [
-    "半透明の透過対象と不透明部分の描画順を分け、半透明の髪などの後ろが正しく表示されない問題を修正しました。",
-    "既存の設定には、使い方に従って設定を作り直すことで修正が適用されます。"
+    "マテリアルバリアントでXRayシェーダーへの変更に失敗する問題を修正しました。",
+    "貫通対象の通常の半透明lilToonマテリアルに対応しました。",
+    "既存の設定へ適用するには、使い方に従って旧設定を取り外し、Ver1.2で作り直してください。"
   ],
   "changes_en": [
-    "Fixed incorrect blending behind semi-transparent see-through surfaces by drawing opaque surfaces first.",
-    "Recreate existing setups following the guide to apply the fix."
+    "Fixed XRay shader assignment for material variants by creating independent material copies.",
+    "Added standard transparent lilToon target material support.",
+    "To apply these fixes, remove the existing setup following the guide and recreate it with Ver1.2."
   ]
 }
